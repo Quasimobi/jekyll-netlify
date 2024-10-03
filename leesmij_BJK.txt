@@ -1,0 +1,46 @@
+git init
+git add .
+git config user.name "Quasimobi"
+git config user.email bauke.mobi@protonmail.com
+
+git commit -m 'First commit 🎉'
+
+( Bij code downloaden staat het adres van de git)
+git remote add origin https://github.com/Quasimobi/jekyll-base.git
+
+$ git remote -v
+
+git push -u origin master
+
+
+Tweede methode:
+Als je het project aanmaakt krijg je een blz met daarin de git naam
+git init
+git add .
+git config user.name "Quasimobi"
+git config user.email bauke.mobi@protonmail.com
+
+git commit -m 'First commit 🎉'
+
+git remote add origin https://github.com/Quasimobi/jekyll-netlify.git
+git branch -M main
+git push -u origin main
+
+
+Dit staat in de readme van: https://github.com/danurbanowicz/eleventy-sveltia-cms-starter
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5ebf7378-bb17-482f-8e28-8dfbe0cd8a6a/deploy-status)](https://app.netlify.com/sites/eleventy-sveltia-cms-starter/deploys)
+
+# Eleventy Sveltia CMS Starter
+
+## Demo: https://eleventy-sveltia-cms-starter.netlify.app/
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-sveltia-cms-starter)
+
+Met deze link kan je een project op Netlify zetten:
+https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-sveltia-cms-starter
+
+
+
+
+
